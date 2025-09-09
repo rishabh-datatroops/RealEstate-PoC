@@ -1,1 +1,45 @@
-app.log
+# Logs
+*.log
+logs/
+
+# macOS
+.DS_Store
+
+# IDEs/Editors
+.idea/
+.vscode/
+.history/
+
+# Metals/BSP/SBT
+.bsp/
+.metals/
+.ammonite/
+project/target/
+target/
+
+# SBT lock/cache
+project/project/target/
+project/**/target/
+**/target/
+
+# Build artifacts
+*.jar
+*.class
+*.cache
+
+# Nested repos to ignore
+RealEstate-PoC/
+
+# Docker/Compose overrides
+docker-data/
+*.env.local
+*.envrc
+
+# Node/yarn (if any tooling is used)
+node_modules/
+
+# Misc
+.env
+dist/
+out/
+coverage/
